@@ -3,6 +3,7 @@ this should be a pretty big deal.. It's the thing I think I struggle with the mo
 The main articles this information comes from are here:
 - [css-floats](http://alistapart.com/article/css-floats-101)
 - [positioning](http://alistapart.com/article/css-positioning-101)
+
 ##CSS FLOATinG
 a float is a box that is shifted to either the left or the right, and that lets text/otherstuff flow along it's side.
 
