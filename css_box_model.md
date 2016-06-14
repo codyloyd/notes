@@ -39,7 +39,7 @@ here.. the order of the elements is __CLOCKWISE FROM THE TOP__. In other words:
 
 If you only declare 2 values, they are applied to top/bottom and then right/left:
 
-```HTML
+```CSS
 div {
   margin: 10px 20px;
 }
