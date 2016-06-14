@@ -32,4 +32,7 @@ collapsing is when a parent element that contains any number of floated elements
 	visibility: hidden;
 }
 ```
-- doing this creates a new block after everything else in the containerand makes it hidden
+- doing this creates a new pseudo-block after everything else in the container and makes it hidden
+- lastly.. if you float the parent container, it will recognize it's floated children and resize itself accordingly.
+
+##POSITIONING
