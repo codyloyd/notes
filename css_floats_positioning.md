@@ -36,3 +36,27 @@ collapsing is when a parent element that contains any number of floated elements
 - lastly.. if you float the parent container, it will recognize it's floated children and resize itself accordingly.
 
 ##POSITIONING
+positioning is a pain in the butt... I feel like I am just randomly trying stuff out until it works.  lets hope I can get a handle on that.
+
+the five options for the `position` parameter are:
+- static (this is the default)
+- relative
+- absolute
+- fixed
+- inherit
+>(remember normal flow)
+
+###static
+static is the default `position` value... it behaves as you would expect.. except that offset properties like `top` or `bottom` _do not work_ with it~ (I wish I knew that earlier.. sheesh)
+###relative
+Relative positioned elements work just like static ones.. but they can do more.. namely they can use offset properties.
+When using offset properties like top/bottom/left and right, the elements still adhere to the flow even if elements are not directly touching.
+using relative positioning also creates coordinate systems for child elements... which is to say that children can be positioned (`top, bottom etc.`) _relative_ to their parents (oh...)
+###absolute
+absolutely positioned elements are removed from the normal flow... which is to say that you can put it anywhere and it won't affect or be affected by any other element on the page.  absolute elements create coordinate systems for children, just like relative elements.
+Using all 4 position properties with an absolute div, you can stretch an element without setting their width and height.
+###fixed
+fixed elements behave like absolute elements, except that it is positioned relative to the viewport, not it's parent.
+>fixed doesnt' work well in older browsers.. according to that 2011 article.
+
+
